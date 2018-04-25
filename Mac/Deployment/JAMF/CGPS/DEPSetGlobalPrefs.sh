@@ -3,9 +3,6 @@
 #Date / Time
 /usr/sbin/systemsetup -settimezone "America/New_York"
 
-#Lightspeed User Agent
-sudo defaults write useragent IdentServer -string "lightspeed.cgps.org"
-
 #Set some global settings
 defaults write /Library/Preferences/com.apple.mdmclient BypassPreLoginCheck -bool YES
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
